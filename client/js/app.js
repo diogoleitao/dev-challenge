@@ -6,12 +6,19 @@ var domReady = require('domready');
 var Router = require('./router');
 var MainView = require('./views/main');
 
+var Ninjas = require('./models/ninjas');
+
 module.exports = {
   // this is the the whole app initter
   blastoff: function () {
     var self = window.app = this;
 
     log('config', config);
+
+    console.log('%c Hello young ninja apprentice!', 'background: #333; color: #00AAFF');
+    console.log('This is where you should test your code.');
+    console.log('How? Well try using the \'app\' global var.');
+    console.log('Good luck!');
 
     // init our URL handlers and the history tracker
     self.router = new Router();
@@ -24,7 +31,11 @@ module.exports = {
     self.buildHTML();
   },
 
-  buildModels: function () {},
+  buildModels: function () {
+    var self = app;
+
+    self.ninjas = new Ninjas();
+  },
 
   buildHTML: function () {
     // wait for document ready to render our main view,

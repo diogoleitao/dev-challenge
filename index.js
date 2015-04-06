@@ -31,6 +31,9 @@ server.ext('onPreResponse', function (request, reply) {
   return reply.continue();
 });
 
+// Set our routes
+require('./server');
+
 // Require and register the moonboots_hapi plugin
 // So that we may serve all the client content
 server.register({ register: require('moonboots_hapi'), options: require('./moonbootsConfig') }, function (err) {
@@ -42,7 +45,7 @@ server.register({ register: require('moonboots_hapi'), options: require('./moonb
     if (err) {
       throw err;
     }
-    console.log('Your app is running at: http://localhost:' + config.hapi.port + " Awesome \\o/\n");
+    console.log('Your app is running at: http://localhost:' + config.hapi.port + ' Awesome \\o/\n');
     console.log('//////////////////////////////////////////////////////////////////');
     console.log('//\tWelcome young ninja apprentice\t\t\t\t//');
     console.log('//\tReady for a challenge? Do you have what it takes?\t//');
