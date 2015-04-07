@@ -8,25 +8,25 @@ Let’s get started shall we?
 
 ## Before starting
 
-You’ll need NodeJS. NodeJS (or node for friends) is a platform that allows you to develop applications that run on Javascript. There are a lot more insights scattered away in the interwebz that will allow you to get more information on how node truly works, but that would be an interesting topic for another challenge/tutorial/stuff.
+You’ll need [NodeJS](https://nodejs.org/). NodeJS (or node for friends) is a platform that allows you to develop applications that run on Javascript. There are a lot more insights scattered away in the interwebz that will allow you to get more information on how node truly works, but that would be an interesting topic for another challenge/tutorial/stuff.
 
-Node comes with npm, an awesome tool that allows you to install node programs and modules other people have developed, allowing you to use this modules in the programs you’re developing, or even use them as a normal exec programs you use on your machine to do… stuff.
+Node comes with [npm](https://www.npmjs.com/), an awesome tool that allows you to install node programs and modules other people have developed, allowing you to use this modules in the programs you’re developing, or even use them as a normal exec program you use on your machine to do… stuff.
 
-To code you can use your favorite IDE/text editor but, if you don’t have one, we recommend sublime text or Atom.io
+To code you can use your favorite IDE/text editor but, if you don’t have one, we recommend [Sublime Text](http://www.sublimetext.com/3) or [Atom](https://atom.io/)
 
 You’ll also need an unix shell or a cmd windows prompt from where you’ll run any necessary commands. We personally prefer Unix but eih… We don’t judge based on the color, sex, or OS…
 
 ### What about documentation?
 
-Well, if you’re truly new to all of these we advise you to take a look at the Nodeschool workshops so that you may start to get a little more familiar with NodeJS.
+Well, if you’re truly new to all of these we advise you to take a look at the [Nodeschool](http://nodeschool.io/) workshops so that you may start to get a little more familiar with NodeJS.
 
 We use a series of frameworks that you should also read a bit about.
 
-To help us in our backend we use HapiJS. A framework that powers our http servers.
+To help us in our backend we use [HapiJS](http://hapijs.com/). A framework that powers our http servers.
 
-To help us in our frontend we use AmpersandJS. A non-frameworky framework, based in BackboneJS, that allows us to develop and use tiny modules that manage all of our clientside apps.
+To help us in our frontend we use [AmpersandJS](http://ampersandjs.com/). A non-frameworky framework, based in BackboneJS, that allows us to develop and use tiny modules that manage all of our clientside apps.
 
-If you would like to get more comfortable with Javascript we advise you to read Human Javascript by Henrik Joreteg and Javascript the Good Parts by Douglas Crockford.
+If you would like to get more comfortable with Javascript we advise you to read [Human Javascript](http://read.humanjavascript.com/) by Henrik Joreteg and [Javascript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) by Douglas Crockford.
 
 ## The challenge!
 
@@ -63,8 +63,16 @@ What properties do Ninjas have? Heck, we don’t know, that’s why we’re hiri
 
 *A word of advice? Read these:*
 
+[HapiJS route handlers](http://hapijs.com/api#route-handler)
+
+[Ampersand Model](http://ampersandjs.com/docs#ampersand-model)
+
+[Ampersand Rest Collection](http://ampersandjs.com/docs#ampersand-rest-collection)
+
 You’ve done this already and yet you’re eager for more? Well if you’re up for the true ninja challenge here it is. Our Ninja Manager app is… well, crappy. I mean, everybody is a ninja? Nop. We need you to make it possible for us to have a series of ninja “extensions”. We’ll need an Apprentice, Disciple, Master and an ultimate MasterLengend class. What do they have that distinguishes them? Well, we surely don’t now, so be creative and show us!
 
 *A word of advice? Read these:*
+
+[Ampersand Model Extend](http://ampersandjs.com/docs#ampersand-model-extend)
 
 So this is it. Any questions you might have just let us know!
