@@ -1,7 +1,14 @@
 body
-  nav.ink-navigation
-    ul.menu.horizontal.black
-        li.heading
-          a(href='/') Home
-
-  main(data-hook='page-container')
+	nav.ink-navigation
+		ul.menu.horizontal.black
+			li.heading
+				a(href='/') Home
+			li.heading
+				a(href='/api/ninjas') Get all the ninjas
+			li.heading
+				a(href='/api/ninjas/{id}') Get a ninja
+			li.heading
+				a(href='/api/ninjas/{id}') Update a ninja
+			li.heading
+				a(href='/api/ninjas') Create a new ninja
+	main(data-hook='page-container')
